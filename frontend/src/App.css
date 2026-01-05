@@ -1,0 +1,75 @@
+/* Page background */
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #eef2ff, #f8fafc);
+  font-family: Arial, sans-serif;
+}
+
+/* Main card */
+.card {
+  width: 360px;
+  padding: 24px;
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  text-align: center;
+}
+
+/* Title */
+.title {
+  margin-bottom: 20px;
+  color: #1f2937;
+}
+
+/* Cart info */
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 14px;
+  background: #f1f5f9;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+button:disabled {
+  background: #93c5fd;
+  cursor: not-allowed;
+}
+
+/* Result box */
+.result {
+  margin-top: 20px;
+  padding: 14px;
+  background: #ecfeff;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+/* Token text */
+.token {
+  margin-top: 8px;
+  word-break: break-all;
+  font-size: 13px;
+  color: #374151;
+}
